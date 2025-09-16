@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "68db38e5-d1e4-45dd-95f2-b31262c9515b",
+  "name": "game_start",
+  "symbol": "bg_game_start",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game_start.png",
+  "tileColors": "00168+"
+}

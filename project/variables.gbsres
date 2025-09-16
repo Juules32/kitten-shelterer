@@ -1,0 +1,25 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Cat Held",
+      "symbol": "var_cat_held"
+    },
+    {
+      "id": "1",
+      "name": "B Held",
+      "symbol": "var_b_held"
+    },
+    {
+      "id": "2",
+      "name": "B Pressed",
+      "symbol": "var_b_pressed"
+    },
+    {
+      "id": "9f74f88a-4fe6-485e-b686-e893709ba8b4__L0",
+      "name": "Local Cat Held",
+      "symbol": "var_local_cat_held"
+    }
+  ]
+}
