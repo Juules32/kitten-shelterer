@@ -10,13 +10,24 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00b40+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 101,
-  "y": 47,
-  "script": [],
+  "x": 104,
+  "y": 48,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "516408ef-5129-4875-bd1b-3f492d08d1a5"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
 }

@@ -8,8 +8,8 @@
     },
     {
       "id": "1",
-      "name": "B Held",
-      "symbol": "var_b_held"
+      "name": "Is tent",
+      "symbol": "var_is_tent"
     },
     {
       "id": "2",
@@ -20,6 +20,11 @@
       "id": "9f74f88a-4fe6-485e-b686-e893709ba8b4__L0",
       "name": "Local Cat Held",
       "symbol": "var_local_cat_held"
+    },
+    {
+      "id": "df0f671d-a73f-4a75-b81d-0a29d9c32bfa__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

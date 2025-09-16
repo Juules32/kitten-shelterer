@@ -4,6 +4,14 @@
     {
       "id": "fade_style",
       "value": 0
+    },
+    {
+      "id": "plat_min_vel",
+      "value": 6400
+    },
+    {
+      "id": "plat_dec",
+      "value": 768
     }
   ]
 }

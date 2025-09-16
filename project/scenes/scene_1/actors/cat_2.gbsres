@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "512267b2-e0bd-4700-a648-7e5a25dd4675",
-  "name": "",
+  "name": "Cat 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 6,
+  "x": 8,
   "y": 17,
-  "_index": 1
+  "_index": 0
 }

@@ -9,7 +9,7 @@
   "animSpeed": 15,
   "paletteId": "",
   "persistent": true,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [
@@ -44,7 +44,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "f26ce5ee-602d-4658-990d-60e3a3ccf6eb"
                 },
@@ -93,6 +93,30 @@
                     "frames": 30
                   },
                   "id": "10ac532d-7417-4178-9001-076a153451a4"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "L0"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_THREAD_STOP",
+                        "args": {
+                          "variable": "T0"
+                        },
+                        "id": "84049941-f2f7-4291-b1fd-a03c9a6d2d32"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ea8fc044-1eaa-4a7b-8473-d3fdf26058f4"
                 }
               ]
             },
@@ -111,7 +135,8 @@
           "down"
         ],
         "__collapseElse": true,
-        "__comment": false
+        "__comment": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -129,7 +154,8 @@
                 }
               },
               "__collapseElse": true,
-              "__comment": false
+              "__comment": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -184,6 +210,15 @@
                           "units": "pixels"
                         },
                         "id": "3c104636-c97e-4c1d-8ee6-b654bd5fc885"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_STATE",
+                        "args": {
+                          "actorId": "player",
+                          "spriteStateId": "",
+                          "loopAnim": true
+                        },
+                        "id": "50b3b768-aa57-40a8-99c7-2c33854c9254"
                       }
                     ],
                     "false": []
@@ -216,7 +251,8 @@
         "input": [
           "up"
         ],
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -230,7 +266,8 @@
                 "value": 1
               },
               "otherActorId": "$self$",
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -249,7 +286,7 @@
                     },
                     "__collapseElse": true,
                     "__comment": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -280,6 +317,16 @@
                           }
                         },
                         "id": "7b47e23c-6e52-436b-99cf-07b9294761e4"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_STATE",
+                        "args": {
+                          "actorId": "player",
+                          "spriteStateId": "Holding cat",
+                          "loopAnim": true,
+                          "__collapse": false
+                        },
+                        "id": "f270edde-6e8f-4636-8e6c-1f0751a37855"
                       }
                     ],
                     "false": []
