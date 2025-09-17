@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "47733b7d-1060-4348-b99e-fec7df168453",
-  "name": "cat_placeholder",
+  "name": "cat",
   "symbol": "sprite_cat_placeholder",
   "numFrames": 6,
-  "filename": "cat_placeholder.png",
+  "filename": "cat.png",
   "checksum": "db5b1b3ad1f49179208dcc34a77a0a6b2661d8e1",
   "width": 96,
   "height": 16,

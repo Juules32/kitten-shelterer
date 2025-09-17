@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "14a0afce-8acf-4079-a9c5-f053c31873a2",
+  "name": "title_screen",
+  "symbol": "song_cat",
+  "filename": "title_screen.uge",
+  "settings": {},
+  "type": "uge"
+}

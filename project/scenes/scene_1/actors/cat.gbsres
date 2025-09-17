@@ -1,0 +1,69 @@
+{
+  "_resourceType": "actor",
+  "id": "4254739d-4989-4a85-9848-4ea5ad145cdb",
+  "name": "Cat",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "9f74f88a-4fe6-485e-b686-e893709ba8b4",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "af908515-89ce-412a-8451-b9a09e718bb7": {
+      "id": "af908515-89ce-412a-8451-b9a09e718bb7",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        }
+      }
+    },
+    "c64b2d93-0e1d-430c-ae9a-0872f465e4f6": {
+      "id": "c64b2d93-0e1d-430c-ae9a-0872f465e4f6",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    "a1ea0c55-44d4-4e33-bbfb-ba933401a6cc": {
+      "id": "a1ea0c55-44d4-4e33-bbfb-ba933401a6cc",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    "2b7f07fc-46ea-4392-baaa-b5b9c17521bd": {
+      "id": "2b7f07fc-46ea-4392-baaa-b5b9c17521bd",
+      "args": {
+        "distance": {
+          "type": "number",
+          "value": 1
+        },
+        "otherActorId": "df0f671d-a73f-4a75-b81d-0a29d9c32bfa",
+        "actorId": "$self$"
+      }
+    },
+    "e9f536f3-72cf-42be-824a-b0b4eaa3cd63": {
+      "id": "e9f536f3-72cf-42be-824a-b0b4eaa3cd63",
+      "args": {
+        "variable": "3"
+      }
+    }
+  },
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 17,
+  "_index": 1
+}
