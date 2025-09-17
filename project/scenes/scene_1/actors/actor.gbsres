@@ -13,14 +13,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {
-    "2b7f07fc-46ea-4392-baaa-b5b9c17521bd": {
-      "id": "2b7f07fc-46ea-4392-baaa-b5b9c17521bd",
-      "args": {
-        "otherActorId": "df0f671d-a73f-4a75-b81d-0a29d9c32bfa"
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_1",
   "script": [],
   "startScript": [],
@@ -28,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 23,
-  "y": 12,
+  "x": 26,
+  "y": 17,
   "_index": 2
 }

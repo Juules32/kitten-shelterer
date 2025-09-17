@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a5a3702f-2009-47d7-8649-3017e7aa4523",
+  "name": "winscreen_placeholder",
+  "symbol": "bg_winscreen_placeholder",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "winscreen_placeholder.png",
+  "tileColors": ""
+}
