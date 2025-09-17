@@ -32,6 +32,13 @@
         "speed": 3
       },
       "id": "33854933-0183-4e19-9fc3-240c6949358e"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0a8df783-aa63-43ff-af16-353629f49a0e"
+      },
+      "id": "843062a9-ac39-446d-935f-54a053b088cf"
     }
   ],
   "playerHit1Script": [],

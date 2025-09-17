@@ -17,6 +17,11 @@
       "symbol": "var_b_pressed"
     },
     {
+      "id": "3",
+      "name": "Cats saved",
+      "symbol": "var_cats_saved"
+    },
+    {
       "id": "9f74f88a-4fe6-485e-b686-e893709ba8b4__L0",
       "name": "Local Cat Held",
       "symbol": "var_local_cat_held"
@@ -25,11 +30,6 @@
       "id": "df0f671d-a73f-4a75-b81d-0a29d9c32bfa__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
-    },
-    {
-      "id": "3",
-      "name": "Cats saved",
-      "symbol": "var_cats_saved"
     }
   ]
 }
