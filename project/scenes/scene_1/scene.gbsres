@@ -24,6 +24,14 @@
         "loopAnim": true
       },
       "id": "516408ef-5129-4875-bd1b-3f492d08d1a5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "33854933-0183-4e19-9fc3-240c6949358e"
     }
   ],
   "playerHit1Script": [],
