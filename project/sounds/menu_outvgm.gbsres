@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "e098e861-0a2f-4b7d-8150-b38329ed8b0f",
+  "name": "Menu_Out.vgm",
+  "symbol": "sound_menu_out_vgm",
+  "filename": "Menu_Out.vgm",
+  "type": "vgm"
+}

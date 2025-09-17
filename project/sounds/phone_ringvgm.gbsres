@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5f1f3f86-79f9-463c-a4e6-25f8c9e95eaf",
+  "name": "Phone_Ring.vgm",
+  "symbol": "sound_phone_ring_vgm",
+  "filename": "Phone_Ring.vgm",
+  "type": "vgm"
+}

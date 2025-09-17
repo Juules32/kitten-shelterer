@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "a63dc431-c8ae-4d35-80a9-0b3436d0cf12",
+  "name": "Drink.vgm",
+  "symbol": "sound_drink_vgm",
+  "filename": "Drink.vgm",
+  "type": "vgm"
+}

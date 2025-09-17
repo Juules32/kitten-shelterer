@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "ab7ad95e-52c7-4d5e-9425-f549affb3aa5",
+  "name": "Dog_Bark.vgm",
+  "symbol": "sound_dog_bark_vgm",
+  "filename": "Dog_Bark.vgm",
+  "type": "vgm"
+}

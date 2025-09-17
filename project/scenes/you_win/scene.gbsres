@@ -1,0 +1,67 @@
+{
+  "_resourceType": "scene",
+  "id": "f6658a41-0539-4e8d-8766-9d3f455f7f10",
+  "_index": 1,
+  "name": "You Win",
+  "backgroundId": "a5a3702f-2009-47d7-8649-3017e7aa4523",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 360,
+  "y": 296,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "660cf259-ae05-4571-8c6a-42aa54c8aa6c"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "624837bf-ba4e-4986-ab03-48f61f288bd3"
+      },
+      "id": "599c5d05-77e4-4ec9-802f-bf92c080027f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "135f06e6-5ac2-419d-b28c-8e53e6338fd7"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "e19920b0-f492-4216-91fd-f1aaeded9825"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "ea9605ac-c26b-4632-bbef-9cf10efd6e34",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "c6a2382d-5633-4c3f-8c31-58a566bef4b2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c1d2e54e-e9b2-4535-8ca5-b3d4b168808a"
+}

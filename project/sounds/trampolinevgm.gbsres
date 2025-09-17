@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "4f047f64-6b42-4493-91d0-d7fe455ed093",
+  "name": "Trampoline.vgm",
+  "symbol": "sound_trampoline_vgm",
+  "filename": "Trampoline.vgm",
+  "type": "vgm"
+}

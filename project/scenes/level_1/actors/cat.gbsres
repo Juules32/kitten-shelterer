@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "78330867-eec8-4c42-9860-44b4ac52bb68",
-  "name": "",
+  "id": "4254739d-4989-4a85-9848-4ea5ad145cdb",
+  "name": "Cat",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_1",
+  "symbol": "actor_0",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
+  "x": 17,
   "y": 17,
-  "_index": 2
+  "_index": 1
 }

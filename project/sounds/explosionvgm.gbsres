@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "b94d2cf8-6bfa-4e45-b9c1-27f26f6f36ed",
+  "name": "Explosion.vgm",
+  "symbol": "sound_explosion_vgm",
+  "filename": "Explosion.vgm",
+  "type": "vgm"
+}

@@ -28,8 +28,13 @@
     },
     {
       "id": "df0f671d-a73f-4a75-b81d-0a29d9c32bfa__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
+      "name": "SecsLeft",
+      "symbol": "var_secsleft"
+    },
+    {
+      "id": "4",
+      "name": "Num Cats",
+      "symbol": "var_num_cats"
     }
   ]
 }
