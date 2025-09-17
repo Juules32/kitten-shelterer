@@ -24,7 +24,9 @@
         "true": [
           {
             "command": "EVENT_LOOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "children": {
               "true": [
                 {
@@ -52,7 +54,8 @@
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": 0.6,
-                    "frames": 30
+                    "frames": 30,
+                    "__collapse": true
                   },
                   "id": "dddf19d3-5464-4a6a-b062-42071a1a3cca"
                 },
@@ -172,7 +175,8 @@
                         "type": "true"
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -239,6 +243,14 @@
               "false": []
             },
             "id": "30a4ffa8-132a-46e4-a33a-8041dcf16b9d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "3fdb5deb-d30a-4d5f-9087-169f46c5078a"
           }
         ],
         "false": []
@@ -252,7 +264,7 @@
           "up"
         ],
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
