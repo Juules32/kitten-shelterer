@@ -31,20 +31,12 @@
       "id": "7156a6a3-3326-4aa6-b987-393ecc8c5ff2"
     },
     {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "4",
-        "__collapse": false
-      },
-      "id": "25b75b1b-1183-4b93-abbc-1831ca521cb8"
-    },
-    {
       "command": "EVENT_THREAD_START",
       "args": {
         "variable": "T0",
         "__scriptTabs": "true",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -95,6 +87,16 @@
         ]
       },
       "id": "d4ae5ee6-ad1b-49fa-94d9-c090e976f6d1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "eccc0a7d-5495-443f-aca6-861133a5f00e"
     }
   ],
   "updateScript": [
@@ -235,7 +237,7 @@
         ],
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -371,8 +373,8 @@
                                     "value": "3"
                                   },
                                   "valueB": {
-                                    "type": "variable",
-                                    "value": "4"
+                                    "type": "number",
+                                    "value": 5
                                   }
                                 },
                                 "__collapseElse": true

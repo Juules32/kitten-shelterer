@@ -44,7 +44,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -177,73 +177,95 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "property",
-                "target": "player",
-                "property": "xpos"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "false"
+                }
               },
-              "y": {
-                "type": "property",
-                "target": "player",
-                "property": "ypos"
-              },
-              "__collapse": true
+              "__collapseElse": true
             },
-            "id": "21b8d616-5309-4766-ae72-c7c7cabe6a8c"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_STATE",
-            "args": {
-              "actorId": "player",
-              "spriteStateId": "Put down",
-              "loopAnim": true,
-              "__collapse": true
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "xpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "ypos"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "21b8d616-5309-4766-ae72-c7c7cabe6a8c"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "player",
+                    "spriteStateId": "Put down",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "18c41488-1672-4ec5-a29d-13b40403f65e"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "2996b3aa-d3af-4cfc-ac4b-0de4febce1a4"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "4af97011-f577-4e32-b95f-ef4852704b03",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0,
+                    "__collapse": true
+                  },
+                  "id": "6e9dd2c5-86a5-42e4-b7b3-8c30d6a7d005"
+                },
+                {
+                  "command": "EVENT_ACTOR_SHOW",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "3d36a4d2-d335-4aad-b56a-7c0f34f4147d"
+                },
+                {
+                  "command": "EVENT_ACTOR_STOP_UPDATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "8b925568-baea-4719-9f89-3fe3842e1766"
+                }
+              ],
+              "false": []
             },
-            "id": "18c41488-1672-4ec5-a29d-13b40403f65e"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "2996b3aa-d3af-4cfc-ac4b-0de4febce1a4"
-          },
-          {
-            "command": "EVENT_SOUND_PLAY_EFFECT",
-            "args": {
-              "type": "4af97011-f577-4e32-b95f-ef4852704b03",
-              "priority": "medium",
-              "pitch": 4,
-              "frequency": 200,
-              "duration": 0.5,
-              "wait": true,
-              "effect": 0,
-              "__collapse": true
-            },
-            "id": "6e9dd2c5-86a5-42e4-b7b3-8c30d6a7d005"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "$self$",
-              "__collapse": true
-            },
-            "id": "3d36a4d2-d335-4aad-b56a-7c0f34f4147d"
-          },
-          {
-            "command": "EVENT_ACTOR_STOP_UPDATE",
-            "args": {
-              "actorId": "$self$",
-              "__collapse": true
-            },
-            "id": "8b925568-baea-4719-9f89-3fe3842e1766"
+            "id": "b6360d83-c286-49b0-8dde-38c53223ceda"
           }
         ],
         "false": []

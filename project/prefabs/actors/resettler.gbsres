@@ -1,0 +1,70 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e089c671-982e-4c73-848b-56a32c9e82df",
+  "name": "Resettler",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7f447646-6137-4c84-a660-f35331140773",
+      "children": {}
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select",
+          "b"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "15a36237-cf3a-4b82-a815-ed1641167b74",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "33cae43e-a9bd-4077-a6a4-c465f545104c",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "19757391-0b56-4d97-aefe-85e8cf93f565"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

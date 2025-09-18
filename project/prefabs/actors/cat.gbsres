@@ -32,14 +32,6 @@
       "id": "ad971730-130e-4bc7-8e99-b71a1e4c822f"
     },
     {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "4",
-        "__collapse": true
-      },
-      "id": "bf1b06b8-61a1-4f25-8d4d-533749329695"
-    },
-    {
       "command": "EVENT_THREAD_START",
       "args": {
         "variable": "T0",
@@ -315,7 +307,7 @@
               },
               "__collapseElse": true,
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
