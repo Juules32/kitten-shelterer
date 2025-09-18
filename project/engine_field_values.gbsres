@@ -12,6 +12,14 @@
     {
       "id": "plat_dec",
       "value": 768
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 0
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 0
     }
   ]
 }
