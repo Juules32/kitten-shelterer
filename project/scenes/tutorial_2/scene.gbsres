@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "15a36237-cf3a-4b82-a815-ed1641167b74",
-  "_index": 2,
-  "name": "Intro Screen",
-  "backgroundId": "e0499a3f-c320-4d10-af4a-c0ab967618c6",
+  "id": "ecc48819-82f9-4d1e-bce6-b37bd66ba791",
+  "_index": 5,
+  "name": "Tutorial 2",
+  "backgroundId": "977da9c8-4efe-44eb-9e74-f36c5e33b9be",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,43 +12,32 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 68.80000000000001,
-  "y": 284,
+  "symbol": "scene_6",
+  "x": 464,
+  "y": 280,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "7cf8faec-010b-45ec-b476-0e335d64423a"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "615d1c3f-485d-41cd-99ff-39aa13059ac1"
-      },
-      "id": "15f6c5dd-7bdb-4a97-a305-6087e16e5c64"
+      "id": "acaa35db-425b-4878-af99-e2c07aca2291"
     },
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": false
+      },
       "children": {
         "true": [
           {
             "command": "EVENT_IF_INPUT",
             "args": {
               "input": [
-                "a",
-                "b",
-                "left",
-                "up",
-                "down",
-                "right",
-                "start",
-                "select"
+                "start"
               ],
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -63,33 +52,33 @@
                     "wait": true,
                     "effect": 0
                   },
-                  "id": "aa8b73c1-1705-4d1e-b559-4636cbd13b03"
+                  "id": "e716119b-57a6-453b-8a68-5456c6e578f0"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "7bce053f-c930-4415-aca0-7e3fb3976b26",
+                    "sceneId": "a1f039a2-dba0-4412-a4c4-69f5fb595596",
                     "x": {
                       "type": "number",
                       "value": 1
                     },
                     "y": {
                       "type": "number",
-                      "value": 19
+                      "value": 15
                     },
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "b2e50837-b6bb-47a3-a24d-f35e9920df87"
+                  "id": "c0974b88-e3d2-44be-96ff-4bc95739e8f1"
                 }
               ],
               "false": []
             },
-            "id": "478b8601-cc05-4c24-b37c-7175e1689da2"
+            "id": "48863f02-5f82-443f-a365-5e311409417f"
           }
         ]
       },
-      "id": "2501041e-beb1-4878-b7b0-d69b7b5e840e"
+      "id": "05eca5e4-866f-4089-b401-eb0e73dd052e"
     }
   ],
   "playerHit1Script": [],

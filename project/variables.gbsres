@@ -22,6 +22,11 @@
       "symbol": "var_cats_saved"
     },
     {
+      "id": "4",
+      "name": "Num Cats",
+      "symbol": "var_num_cats"
+    },
+    {
       "id": "9f74f88a-4fe6-485e-b686-e893709ba8b4__L0",
       "name": "Local Cat Held",
       "symbol": "var_local_cat_held"
@@ -32,9 +37,14 @@
       "symbol": "var_secsleft"
     },
     {
-      "id": "4",
-      "name": "Num Cats",
-      "symbol": "var_num_cats"
+      "id": "78330867-eec8-4c42-9860-44b4ac52bb68__L0",
+      "name": "Local Cat Held",
+      "symbol": "var_local_cat_held_0"
+    },
+    {
+      "id": "879b89ea-6997-4908-94ad-64ccec2a1412__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

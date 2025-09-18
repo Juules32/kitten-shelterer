@@ -31,7 +31,7 @@
         "variable": "L0",
         "value": {
           "type": "number",
-          "value": 30
+          "value": 45
         }
       },
       "id": "0d5880aa-fd6f-4e26-a742-ddd264c492d4"
@@ -43,7 +43,8 @@
           "a"
         ],
         "override": false,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -83,7 +84,8 @@
                     "text": "                    ",
                     "x": 1,
                     "y": 1,
-                    "location": "background"
+                    "location": "background",
+                    "__collapse": false
                   },
                   "id": "8a674f8a-dc40-4fd2-9237-2ffefe78a01a"
                 },
@@ -126,7 +128,8 @@
                         "value": -1
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -192,6 +195,16 @@
             "id": "21b8d616-5309-4766-ae72-c7c7cabe6a8c"
           },
           {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "Put down",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "18c41488-1672-4ec5-a29d-13b40403f65e"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "1",
@@ -211,7 +224,8 @@
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 0
+              "effect": 0,
+              "__collapse": true
             },
             "id": "6e9dd2c5-86a5-42e4-b7b3-8c30d6a7d005"
           },
@@ -250,7 +264,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 0,
+  "x": 108,
   "y": 0,
   "_index": 0
 }

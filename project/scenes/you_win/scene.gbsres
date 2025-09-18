@@ -2,22 +2,22 @@
   "_resourceType": "scene",
   "id": "f6658a41-0539-4e8d-8766-9d3f455f7f10",
   "_index": 1,
+  "type": "TOPDOWN",
   "name": "You Win",
-  "backgroundId": "a5a3702f-2009-47d7-8649-3017e7aa4523",
-  "tilesetId": "",
+  "symbol": "scene_2",
+  "x": 800,
+  "y": 264,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "a5a3702f-2009-47d7-8649-3017e7aa4523",
+  "tilesetId": "",
   "paletteIds": [
-    null,
+    "",
     "default-bg-2"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 360,
-  "y": 296,
+  "playerSpriteSheetId": "c1d2e54e-e9b2-4535-8ca5-b3d4b168808a",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -63,5 +63,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "c1d2e54e-e9b2-4535-8ca5-b3d4b168808a"
+  "collisions": ""
 }

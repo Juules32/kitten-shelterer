@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e0499a3f-c320-4d10-af4a-c0ab967618c6",
+  "name": "Kitty_Shelter_MainScreen",
+  "symbol": "bg_kitty_shelter_mainscreen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Kitty_Shelter_MainScreen.png",
+  "tileColors": ""
+}

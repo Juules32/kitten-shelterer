@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "329f257a-91bf-49a3-b9f4-9ce85db8d919",
+  "name": "tutorial_ad",
+  "symbol": "bg_tutorial_ad",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tutorial_ad.png",
+  "tileColors": ""
+}

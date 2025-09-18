@@ -5,9 +5,9 @@
   "symbol": "sprite_tent",
   "numFrames": 1.5,
   "filename": "tent.png",
-  "checksum": "dc834e1650803fb49c4ad1b08c505eb39701a4f5",
+  "checksum": "8ab786a9227931065ca55363b9527372fdf2396a",
   "width": 24,
-  "height": 24,
+  "height": 32,
   "states": [
     {
       "id": "d4066af2-d182-4936-819a-358f8465f9c4",
@@ -22,9 +22,9 @@
               "id": "b4b118ac-a653-469c-9506-cf6dd7ec4f38",
               "tiles": [
                 {
-                  "id": "c3ca0da1-f7b9-46a6-93ef-1ef9d6da5374",
+                  "id": "2b2bde1a-aa39-4dd1-8d78-6855642e1ff7",
                   "x": -4,
-                  "y": 8,
+                  "y": 16,
                   "sliceX": 0,
                   "sliceY": 0,
                   "palette": 0,
@@ -35,9 +35,9 @@
                   "priority": false
                 },
                 {
-                  "id": "9cf5a354-151a-4dd1-b427-85615f5afc82",
+                  "id": "9247e230-afde-498f-b8ef-63c547c0375c",
                   "x": -4,
-                  "y": -8,
+                  "y": 0,
                   "sliceX": 0,
                   "sliceY": 16,
                   "palette": 0,
@@ -48,9 +48,9 @@
                   "priority": false
                 },
                 {
-                  "id": "1499b72a-9607-4c7f-9bb8-ad45b4b32a6e",
+                  "id": "4a86362c-6171-4ae9-a148-a7c129194310",
                   "x": 4,
-                  "y": 8,
+                  "y": 16,
                   "sliceX": 8,
                   "sliceY": 0,
                   "palette": 0,
@@ -61,9 +61,9 @@
                   "priority": false
                 },
                 {
-                  "id": "092961f9-0d65-48a0-98eb-f9d47a39ce4c",
+                  "id": "4cce5a75-aa4a-4261-a87e-c319ee653f59",
                   "x": 4,
-                  "y": -8,
+                  "y": 0,
                   "sliceX": 8,
                   "sliceY": 16,
                   "palette": 0,
@@ -74,9 +74,9 @@
                   "priority": false
                 },
                 {
-                  "id": "02d2c437-322e-4337-9dda-41766750eecb",
+                  "id": "5be7af14-f376-41c2-9a01-2b80a0aa9bd1",
                   "x": 12,
-                  "y": 8,
+                  "y": 16,
                   "sliceX": 16,
                   "sliceY": 0,
                   "palette": 0,
@@ -87,9 +87,9 @@
                   "priority": false
                 },
                 {
-                  "id": "d4af6daa-d3e2-4ce4-8e08-1fbcebf0fb1a",
+                  "id": "29a44207-9cc3-426e-b8c7-f76cec015e13",
                   "x": 12,
-                  "y": -8,
+                  "y": 0,
                   "sliceX": 16,
                   "sliceY": 16,
                   "palette": 0,
@@ -169,12 +169,12 @@
       ]
     }
   ],
-  "numTiles": 3,
+  "numTiles": 5,
   "canvasWidth": 24,
-  "canvasHeight": 24,
-  "boundsX": 0,
+  "canvasHeight": 32,
+  "boundsX": -4,
   "boundsY": 0,
   "boundsWidth": 24,
-  "boundsHeight": 24,
+  "boundsHeight": 32,
   "animSpeed": 15
 }

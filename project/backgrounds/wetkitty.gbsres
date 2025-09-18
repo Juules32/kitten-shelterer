@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "555d8f20-2c1f-4f84-b941-4ec7e29640cb",
+  "name": "wetKitty",
+  "symbol": "bg_wetkitty",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "wetKitty.png",
+  "tileColors": ""
+}

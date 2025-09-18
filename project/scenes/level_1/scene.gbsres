@@ -3,18 +3,18 @@
   "id": "a1f039a2-dba0-4412-a4c4-69f5fb595596",
   "_index": 0,
   "name": "Level 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "a61b85b9-3451-4daf-9b71-563a1faaaeac",
   "tilesetId": "",
-  "width": 160,
+  "width": 110,
   "height": 18,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00b40+",
+  "collisions": "00340+014+003+014+0010+014+007c+0f3+0035+014+0015+014+0017+0f5+0069+0f5+0055+014+0010+0f5+007+013+0027+012+002d+013+006+0f5+0069+0f5+0030+014+0035+0f5+0022+40!60!0f4+70!0040+0f28+006+0f16+00e+0f21+0022+0f!006+0f!0014+0f!00e+0f!0020+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 104,
-  "y": 48,
+  "x": 112,
+  "y": 56,
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -29,7 +29,7 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 3
+        "speed": 15
       },
       "id": "33854933-0183-4e19-9fc3-240c6949358e"
     },
@@ -44,5 +44,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  "playerSpriteSheetId": "208c0a07-f89a-4b69-9301-46df538eb2d4"
 }
